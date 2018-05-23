@@ -1,6 +1,0 @@
-# Newone
-
-hhhhhhhhhhhhhhhhhhhhhhhh
-kkkkkkkkkkkkkkkkkkkkkkkk
-llllllllllllllllllllllll
-jjjjjjjjjjjjjjjjjjjjjjjj
