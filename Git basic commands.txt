@@ -1,0 +1,77 @@
+# Configure Username and Email
+git config --global user.name "Your Name Here"
+git config --global user.email "your_email@example.com"
+git config --list
+
+# 
+
+
+
+
+# create a new repository on the command line
+echo "# Newone" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/arohm19/Newone.git
+git push -u origin master
+
+# push an existing repository from the command line
+git remote add origin https://github.com/arohm19/Newone.git
+git push -u origin master
+
+# Clone the Repo
+git clone https://github.com/your-user-name-goes-here/repo-name-here.git
+
+# Adding
+git add . # adding all files
+git add -u # updates tracking for files that changed names or were deleted
+git add -A or git add --all does both of the previous
+git add "file name"
+git add *.txt or html
+
+# Commiting - means saving changes
+git commit -m "your message goes here"
+git log # showing history
+
+git status
+
+# Add link to remote repo
+git remote -v
+
+# Fetch changes from GitHub
+git fetch origin # tells Git to fetch all changes from the "origin" (primary) remote repo
+git  branch -a # show the branches we have
+git merge origin/master # to incorporate the changes from our remote repo
+
+# Git in 20 Minutes
+git init
+git status
+git add omarjr07.txt
+git commit -m "about the file"
+git log
+touch .gitignore # to create a file that tells git which to save and those to ignore
+
+# Branching
+git branch mybranch # to create branch
+git checkout mybranch # to switch to a branch
+git add .
+git commit -m "add your comment here"
+git checkout master # to switch to the main branch
+git merge mybranch # name of source branch and make u r in the destination/master branch
+
+# to skip the staging/adding stage
+git commit -a -m "your comment here"
+
+# merge conflict occurs when the files have different contents, so we need to adjust manual or use third-part software like
+git mergetool
+
+# Pulling from the repo to your local directory
+git pull origin
+
+# adding remote repo
+git remote add myrepo URL
+
+# Temporarily stores all modified tracked files
+git add . # this temporary saves the file
+git apply # to continue working on your file
