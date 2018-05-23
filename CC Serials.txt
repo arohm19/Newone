@@ -1,0 +1,8 @@
+Name:TechTools
+Key: C2YW-MSAF-9HIB-XUVX-QZPC
+
+Name:TechTools.net
+Key: C2YW-B7HY-PEZN-NZ5Z-6ZPC
+
+Name:ThumperDC
+Key: C2YW-I67T-DW2J-FWCN-SZPC
